@@ -1,7 +1,7 @@
 {
   "name": "Secrets",
   "version": "1.0.0",
-  "description": "",
+  "description": "App for authentication",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +18,11 @@
     "express-session": "^1.17.2",
     "md5": "^2.3.0",
     "mongoose": "^5.13.7",
-    "mongoose-encryption": "^2.1.0",
+    "mongoose-encryption": "^2.1.1",
+    "mongoose-findorcreate": "^3.0.0",
+    "nodemon": "^2.0.13",
     "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.1.0"
   }
